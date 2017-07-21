@@ -1,0 +1,68 @@
+
+h1 {
+	text-align: center; 
+	color: #ACECAF; 
+	font-size: 40 px;
+} /* end of h1 */
+
+body{
+	background-image: url("http://29.media.tumblr.com/H8TFAalfag5dnaxwToSZNb1ao1_250.gif");
+	font-family: helvetica, sans-serif;
+} /*end of body */
+
+ 
+p {
+	text-align: center;
+	color: #D0FF83;
+	font-size: 16px;
+} /* end of p style */
+
+span.lightblue {
+	color: #ACECFF
+}
+
+span.yellow {
+	color: #fbffbd
+}
+
+#header { 
+    color: #ACECAF;
+    font-size: 48px;   
+} /* end of id: heading */
+
+
+#copyright {
+	size: 3px;
+	color: red;
+	font-style: italic; 
+} 
+
+
+a:link {
+	text-decoration: none;
+	color: #0080ff;
+} /* end of a:link */
+
+
+a:visited {
+	text-decoration: none;
+	color: #FF0080;
+} /* end of a:visited */
+
+
+a:hover {
+	text-decoration: underline;
+	color: #FF00FF
+} /* end of a:hover */
+
+a:active {
+	text-decoration: underline;
+	color: #FF0080;
+} /* end of a: active */
+
+
+a:focus {
+	text-decoration: none;
+	color: #FFFF9E;
+} /* end of a:focus */
+

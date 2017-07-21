@@ -1,0 +1,146 @@
+<html>
+<head>
+<title> Second NYC Puzzle </title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  
+  <link rel="stylesheet" href="http://www.jqueryui.com/resources/demos/style.css"> 
+  
+<script>
+
+	$(document).ready(function(){
+	        
+		$( "#menu" ).menu();
+
+	
+		$(window).load(function(){
+	    	$( ".moveit" ).draggable();
+                 
+		}); /* end #document ready function */
+  
+
+	});  /* end document.ready */
+</script>
+
+
+ <style>
+	
+	body{
+		background: url("Snow2GIF.gif");
+		color: #a4704c;
+		font-family: helvetica, sans serif; 
+	}
+
+	div.jigsaw_border {
+    	border-color: #056069;
+    	border-style: inset;
+    	border-width: 5px;
+    	width: 625px;
+    	height: 350px;	
+		position: center;
+	}
+
+		#container {
+		    margin:auto;
+			width: 90%;
+			max-width: 1300px;
+		}
+
+		#content {
+			clear: both;
+			/*	margin-top: 100px; */
+		}
+		
+		
+		.leftside_column {
+			float: left;
+			width: 50%;
+			margin-right: 2%;
+		}
+
+		.top {
+    		position: absolute;
+    		top: 50px;
+    		left: 150px;
+		}
+
+		.bottom {
+			position: relative;
+			top: 30px;
+			left:115px;
+		}
+
+		.ui-menu { width: 200px; }
+		
+		#menu { padding:15px; font-size:20px; background-color: lavender; }
+ </style>
+
+</head>
+
+<body>
+
+  
+ <h1 style="white-space: nowrap;"> >> Puzzle 2: Arrange the Puzzle!</h1>
+  
+  <div id="content">
+  
+      <!-- MENU --!>
+	<div class="bottom">
+		<ul id="menu" class="ui-menu ui-widget ui-widget-content" role="menu" tabindex="0"
+		aria-activedescendant="ui-id-3">
+    		<li class="ui-menu-item" id="ui-id-1" tabindex="-1" role="menuitem">
+      		<a href="indexWebDesign.html" style="text-decoration: none;"> Back to Assignments Page </a> </li> 
+      		<li aria-haspopup="true" class="ui-menu-item" id="ui-id-2" tabindex="-1" role="menuitem">
+      		<span class="ui-menu-icon ui-icon ui-icon-carat-1-e"></span> All Puzzles 
+        	<ul class="ui-menu ui-widget ui-widget-content ui-front" role="menu" 
+        	aria-expanded="false" style="display: none; top: -1px; left: 150px;;" 
+        	aria-hidden="true">
+           		<li class="ui-menu-item" id="ui-id-3" tabindex="-1" role="menuitem">
+           		<a href="jqueryPuzzle1.html"> Move Last Piece </a></li>        	
+           		<li class="ui-menu-item" id="ui-id-3" tabindex="-1" role="menuitem">
+           		<a href="jqueryPuzzle2.html"> Draggable </a></li>
+                <li class="ui-state-disabled ui-menu-item" id="ui-id-4" aria-disabled="true"
+                tabindex="-1" role="menuitem"> 2hard4u </li>         
+    		</li>
+    	</ul>
+	</div> <!-- end bottom class -->
+
+	<div class="jigsaw_border" style="position: absolute; top:197px; left: 449px;" >
+	</div> <!-- end jigsaw_border -->
+
+	<!-- outline is 625px by 350px -->
+	<img  src="Jigsaw_Outline.png" style="position: absolute; top:200px; left: 450px;" > 
+
+
+	<div class="moveit" style="position:absolute; top:300px; left:800px;" class="ui-widget-content">
+		<img src="Jigsaw_Piece1.png"> 
+	</div>
+	<div class="moveit" style="position:absolute; top:185px; left:650px;" class="ui-widget-content">
+		<img src="Jigsaw_Piece2.png"> 
+	</div>
+	<div class="moveit" style="position:absolute; top:390px; left:590px;" class="ui-widget-content">
+		<img src="Jigsaw_Piece3.png"> 
+	</div>
+	<div class="moveit" style="position:absolute; top:160px; left:375px;" class="ui-widget-content">
+		<img src="Jigsaw_Piece4.png"> 
+	</div>
+	<div class="moveit" style="position:absolute; top:310px; left:370px;" class="ui-widget-content">
+		<img src="Jigsaw_Piece5.png"> 
+	</div>
+	<div class="moveit" style="position:absolute; top:355px; left:90px;" class="ui-widget-content">
+		<img src="Jigsaw_Piece6.png"> 
+	</div>
+	
+
+
+  </div>   <!-- end content -->
+</body>
+
+</html>

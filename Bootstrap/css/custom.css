@@ -1,0 +1,132 @@
+body {
+  padding-top: 50px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/* CUSTOMIZE THE NAVIGATION BAR
+-------------------------------------------------- */
+
+.navbar-inverse {
+    background-color: #9c0063; 
+    border-color: #9c0063;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #c0fff0;
+}
+/* how to change hover color of navbar-brand*/
+.navbar-inverse .navbar-brand:hover {
+    color: #3300ff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+   color: #669999; /*Change text color here -- default color of menu elements */
+   background-color: #9c0063;
+    } 
+    
+.navbar-inverse .navbar-nav > li > a:hover {
+   color: #8cffdd; /*Change hover text color here -- color of menu elements when hovering over */
+   background-color: #9c0063;
+    }  
+/* a: focus is white */   
+
+/* Current active webpage that user is on */
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:hover, 
+.navbar-inverse .navbar-nav>.active>a:focus {
+  color: #8cffdd; 
+  background-color: #3e90b5;
+}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 20px;
+}
+
+
+.carousel-inner > .item > img {
+  margin: 0 auto;
+  height: 500px;
+  /*max-width: 25%;*/
+}
+
+.carousel-indicators li {
+    display: inline-block; 
+    width: 12px;
+    height: 18px;
+    margin: 10px;
+    /*text-indent: 0;*/
+    cursor: pointer;
+    border: none;
+    border-radius: 40%;  /* how square/circular the indicator is */
+    background-color: #9c0063; 
+    /*box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5); */   
+}
+.carousel-indicators .active {
+	width: 12px;
+    height: 18px;
+    margin: 10px;
+    background-color: #3300ff;
+}
+
+.carousel-control.left, .carousel-control.right {
+    color: #e83ae8;
+    background-image: none;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #9c0063;
+}
+
+.text-muted {
+  margin: 20px 0;
+}
+
+/* OTHER
+-------------------------------------------------- */
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 80px;
+  background-color: #c0fff0;
+}
+
+h1{
+  text-align: center;
+  color: #e83ae8;
+}
+
+p{
+  color: #e83ae8;
+}
+
+
+#copyright {
+	size: 3px;
+	color: #0d0d89;
+	font-style: italic;
+	font-weight: bold 
+} 
+

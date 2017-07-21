@@ -1,0 +1,127 @@
+/* Mobile style sheet for Interests - Pokemon webpage */
+
+
+/* Background image and color */
+
+body {
+	background-color: #86d1f3;
+	/* background-image: url(PokemonLogo.png); */
+	background-size: 500px 300px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+	clear: both;
+	}
+	
+
+/* Basic div styles */
+
+#container {
+	width: 90%;
+	margin: auto;
+	clear: both;
+	}
+
+#content {
+	clear: both;
+/* 	margin-top: 24px; */
+	}
+
+
+/* Adaptive layout styles */
+
+.column1 {
+	width: 100%;
+	}
+	
+.column2 {
+	width: 100%;
+	}
+	
+.column3 {
+	width: 100%;
+	}
+
+
+/* Heading styles */
+	
+h1, h2, h3, h4, h5, h6 {
+	color: #416b93;
+	/* font-size: 1.3em; */
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	}
+	
+.title {
+	color: #fcf8b8;
+	margin-top: 30px;
+	font-size: 3em;
+	}
+
+
+/* Basic text styles */
+	
+p, ul, ol {
+	color: #faecc0;
+	font-family: Garamond, Times, serif;
+	font-size: .95em;
+	font-weight: bold;
+	line-height: 1.4em;
+	text-align: left;
+	}
+	
+ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	}
+	
+.credit {
+	font-size: .7em;
+	text-align: center;
+	}
+
+
+/* Image styles */
+
+img {
+	width: 100%;
+	}
+	
+
+/* Page footer */
+
+#footer {
+    clear: both;
+	padding-top: 24px;
+	}
+
+/* IMPLEMENT THIS INTO HTML PAGE */
+#copyright {
+	size: 3px;
+	color: red;
+	font-style: italic; 
+}
+
+/* Link states */
+	
+a:link, a:visited {
+	color: black;
+	text-decoration: none;
+	}
+
+a.heading:hover {
+	background-color: transparent;
+	}
+	
+a:focus, a:hover {
+
+	color: white;
+	}
+	
+a:active {
+	text-decoration: none;
+	}
+
+
+/* End mobile style sheet for NYC site */
